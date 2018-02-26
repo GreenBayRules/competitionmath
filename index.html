@@ -4,10 +4,11 @@
 <head>
   <title>Competition Math</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts.js" type="text/javascript"></script>
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link href="hover/css/hover.css" rel="stylesheet" media="all">
@@ -61,9 +62,31 @@
       <p id="special-paragraph" class="special-paragraph">
         <b>Are you tired of not placing in math competition? Or are you practicing really hard for a certain math contest, but never see a difference in your math skill?</b> Use our <a href="#" id="href" class="href">Competition Math Guide</a> for tips, tricks and formulas specially made for you to excel in specific contests.
         <br />
-        <button id="button" class="navbar-button hvr-underline-from-left">Start Learning <i class="fas fa-arrow-right"></i></button>
+        <button onclick="startLearning()" id="button" class="navbar-button hvr-underline-from-left">Start Learning <i class="fas fa-arrow-right"></i></button>
       </p>
     </center>
+  </div>
+  <div id="main-content-white" class="container">
+    <div class="row">
+        <center>
+          <div class="left">
+            <h1 id="heading-big" class="heading">500+</h1>
+            <p id="paragraph" class="paragraph" style="width: 80%;">
+              Sample Questions from various competitions to help you learn different math concepts and principles. Full tests from different contests are also available.
+            </p>
+          </div>
+          <div class="center">
+            <h1 id="heading-big" class="heading">50+</h1>
+            <p id="paragraph" class="paragraph" style="width: 80%;">
+              Online easy-to-use calculators based for different purposes. For ex. An Add, Subtract, Multiply, Divide calculator for different bases.
+            </p></div>
+          <div class="right">
+            <h1 id="heading-big" class="heading">100+</h1>
+            <p id="paragraph" class="paragraph" style="width: 80%;">
+              Forum discussion topics. Share a math problem you find interesting to the community, or try and solve others! Post questions you have on anything math related.
+            </p></div>
+        </center>
+    </div>
   </div>
 
 </body>
