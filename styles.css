@@ -176,3 +176,23 @@ body, html {
   display:table-cell;
   vertical-align:middle;
 }
+
+
+
+.calculator-picture-answer td {
+  padding: 15px;
+}
+.math {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Monospace;
+}
+
+#nav-container a {
+  color: #191919;
+}
+
+#nav-container a:hover {
+  color: #191919;
+  text-decoration: none;
+}
