@@ -105,6 +105,8 @@
       <br />
       <br />
     </div>
+
+
     <h3 class="heading">2. Given Equilateral Triangle side</h3>
     <div style="padding-left: 50px;">
       This is the formula you use given an equilateral triangle with side length `a`. Given the side length being `a`, the formula is: `A = (sqrt(3)a^2)/4`.
@@ -130,6 +132,46 @@
       <br />
       <br />
       <button onclick="calculateAreaOfEquilateralTriangle()" type="button" class="btn btn-success">Calculate</button>
+      <br />
+      <br />
+    </div>
+
+
+    <h3 class="heading">3. Given three sides (Heron's Formula)</h3>
+    <div style="padding-left: 50px;">
+      This is the formula you use if you are given a triangle with sides `a`, `b`, and `c`. This formula is called Heron's Formula, and is:
+       <br />
+       <br />
+      `s = (a + b = c)/2`
+      <br />
+      `A = sqrt(s(s-a)(s-b)(s-c))`
+      <table class="calculator-picture-answer">
+        <tr>
+          <td>
+            <img style="height: 200px;" src="images/triangle-with-side.png" />
+          </td>
+          <td>
+            <div id="exactHerons" class="math">
+              A =
+            </div>
+            <div id="approximateHerons" class="math">
+              A ≈
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      `a` (side a length)` = ` <input id="sidea"/>
+      <br />
+      <br />
+      `b` (side b length)` = ` <input id="sideb"/>
+      <br />
+      <br />
+      `c` (side c length)` = ` <input id="sidec"/>
+      <br />
+      <br />
+      <button onclick="calculateHeronsFormula()" type="button" class="btn btn-success">Calculate</button>
       <br />
       <br />
     </div>

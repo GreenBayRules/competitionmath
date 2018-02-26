@@ -37,6 +37,24 @@ function calculateAreaOfEquilateralTriangle() {
 }
 
 
+function calculateHeronsFormula() {
+  var a = parseInt(document.getElementById("sidea").value);
+  var b = parseInt(document.getElementById("sideb").value);
+  var c = parseInt(document.getElementById("sidec").value);
+  if (isNaN(a) || isNaN(b) || isNaN(c)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var s = (a + b + c)/2;
+    console.log(s);
+    var rootnumber = s * (s - a) * (s - b) * (s - c);
+    var approximate = Math.sqrt(rootnumber);
+    var exact = simplifySqrt(rootnumber);
+  }
+  document.getElementById("exactHerons").innerHTML = "A = " + exact + " units²";
+  document.getElementById("approximateHerons").innerHTML ="A ≈ " +  approximate + " units²";
+}
+
 
 
 /* For Square */
@@ -88,4 +106,34 @@ function calculateCircumfrence() {
 /* General */
 function square(number) {
   return number * number;
+}
+
+function simplifySqrt(sqrt) {
+  if (Number.isInteger(sqrt)){
+    var sqrts = [];
+    var outside = 1;
+    var root = sqrt;
+    for (var i = 2; i < Math.sqrt(sqrt); i++) {
+      sqrts.push(i*i);
+    }
+    console.log(sqrts);
+
+    for (var i = 0; i < sqrts.length; i++){
+      var element = sqrts[i];
+      if (root%element == 0) {
+        outside = Math.sqrt(element) * outside;
+        root = root/element;
+      }
+    }
+    if (root < 1) {
+      return "Input Wrong";
+    }
+    else {
+      return outside + "√" + root;
+    }
+    console.log(outside + "√" + root);
+  }
+  else {
+    return "√" + sqrt;
+  }
 }
