@@ -294,8 +294,8 @@ function calculateAreaOfCircle() {
     var areaWithPi = "Input Not Valid";
   }
   else {
-    var area = "A ≈ " + Math.PI * radius * radius + "" + " units²";
-    var areaWithPi = "A = " + radius * radius + "π" + " units²";
+    var area = "A ≈ " + Math.PI * square(radius) + "" + " units²";
+    var areaWithPi = "A = " + square(radius) + "π" + " units²";
   }
   document.getElementById("exact").innerHTML = areaWithPi;
   document.getElementById("approximate").innerHTML = area;
@@ -312,4 +312,35 @@ function calculateCircumfrence() {
   }
   document.getElementById("exact").innerHTML = areaWithPi;
   document.getElementById("approximate").innerHTML = area;
+}
+
+function calculateAreaOfEllipse() {
+  var r1 = document.getElementById("radius1").value;
+  var r2 = document.getElementById("radius2").value;
+  if (isNaN(r1) || isNaN(r2)) {
+    var area = "Input Not Valid";
+    var areaWithPi = "Input Not Valid";
+  }
+  else {
+    var area = "A ≈ " + Math.PI * r1 * r2 + "" + " units";
+    var areaWithPi = "A = " + r1 * r2 + "π" + " units";
+  }
+  document.getElementById("exact").innerHTML = areaWithPi;
+  document.getElementById("approximate").innerHTML = area;
+}
+
+function calculateCircumfrenceOfEllipse() {
+  var r1 = document.getElementById("radius1").value;
+  var r2 = document.getElementById("radius2").value;
+  if (isNaN(r1) || isNaN(r2)) {
+    var p = "Input Not Valid";
+  }
+  else {
+    var h = square(r1 - r2)/square(r1 + r2)
+    var p = Math.PI * (r1 + r2);
+    var threeh = 3 * h;
+    var bottom = 10 + Math.sqrt(4 - threeh);
+    p *= 1 + threeh/bottom;
+  }
+  document.getElementById("approximate").innerHTML = p;
 }
