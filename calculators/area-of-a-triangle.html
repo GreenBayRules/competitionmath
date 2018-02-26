@@ -104,10 +104,10 @@
       </table>
       <br />
       <br />
-      `b` (base length)` = ` <input id="base"/>
+      `b` (base length)` = ` <input onkeypress="calculateAreaOfTriangleBaseHeight()" id="base"/>
       <br />
       <br />
-      `h` (height length)` = ` <input id="height"/>
+      `h` (height length)` = ` <input onkeypress="calculateAreaOfTriangleBaseHeight()" id="height"/>
       &nbsp;&nbsp;&nbsp;
       <br />
       <br />
@@ -137,7 +137,7 @@
       </table>
       <br />
       <br />
-      `A` (side length)` = ` <input id="side"/>
+      `A` (side length)` = ` <input onkeypress="calculateAreaOfEquilateralTriangle()" id="side"/>
       &nbsp;&nbsp;&nbsp;
       <br />
       <br />
@@ -164,13 +164,13 @@
       </table>
       <br />
       <br />
-      `a` (side a length)` = ` <input id="a"/>
+      `a` (side a length)` = ` <input onkeypress="calculateSinTriangle()" id="a"/>
       <br />
       <br />
-      `m∠C` (angle c measure)` = ` <input id="angleC"/>
+      `m∠C` (angle c measure)` = ` <input onkeypress="calculateSinTriangle()" id="angleC"/>
       <br />
       <br />
-      `b` (side b length)` = ` <input id="b"/>
+      `b` (side b length)` = ` <input onkeypress="calculateSinTriangle()" id="b"/>
       <br />
       <br />
       <button onclick="calculateSinTriangle()" type="button" class="btn btn-success">Calculate</button>
@@ -204,13 +204,13 @@
       </table>
       <br />
       <br />
-      `a` (side a length)` = ` <input id="sidea"/>
+      `a` (side a length)` = ` <input onkeypress="calculateHeronsFormula()" id="sidea"/>
       <br />
       <br />
-      `b` (side b length)` = ` <input id="sideb"/>
+      `b` (side b length)` = ` <input onkeypress="calculateHeronsFormula()" id="sideb"/>
       <br />
       <br />
-      `c` (side c length)` = ` <input id="sidec"/>
+      `c` (side c length)` = ` <input onkeypress="calculateHeronsFormula()" id="sidec"/>
       <br />
       <br />
       <button onclick="calculateHeronsFormula()" type="button" class="btn btn-success">Calculate</button>

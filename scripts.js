@@ -70,6 +70,25 @@ function calculateSinTriangle() {
 }
 
 
+/* For Hexagon */
+function calculateAreaOfHexagon() {
+  var s = document.getElementById("side").value;
+  if (isNaN(s)) {
+    var area = "Input Not Valid";
+    var approx = "Input Not Valid";
+  }
+  else {
+    var a = 3;
+    a /= 2;
+    a *= square(s);
+    var area = "A ≈ " + a + "√3 units²";
+    a *= Math.sqrt(3);
+    var approx = "A = " + a + " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+  document.getElementById("approximate").innerHTML = approx ;
+}
+
 /* For Pentagon */
 function calculateAreaOfPentagon() {
   var s = document.getElementById("side").value;
@@ -82,7 +101,7 @@ function calculateAreaOfPentagon() {
     a *= 5;
     a = Math.sqrt(a)/4;
     a *= square(s);
-    var area = "A = " + a;
+    var area = "A = " + a + " units²";
   }
   document.getElementById("exact").innerHTML = area ;
 }
