@@ -34,18 +34,24 @@ body, html {
   z-index: 0;
 }
 #main-content-white {
+  background-color: #f9f9f9;
   margin-top: 20px;
   padding: 10px;
-  height: fit-content;
   width: 80%;
   z-index: 0;
 }
-#main-content-white .left, #main-content-white .center, #main-content-white .right  {
+#main-content-container {
+  margin-top: 20px;
+  padding: 10px;
+  width: 80%;
+  z-index: 0;
+}
+#main-content-container .left, #main-content-container .center, #main-content-container .right  {
   background-color: #f9f9f9;
   width: 30%;
   padding: 10px;
   display: inline-block;
-  margin: 5px 15px;
+  margin: 0px 15px;
 }
 
 @media screen and (max-width: 1223px) {
@@ -53,7 +59,7 @@ body, html {
     background-color: #f9f9f9;
     width: 30%;
     padding: 10px;
-    margin: 5px;
+    margin: 0px 5px;
     display: inline-block;
   }
 }
@@ -149,6 +155,7 @@ body, html {
   color: #015179;
   font-weight: 600;
   font-size: 1.2em;
+  width: 200px;
 }
 #button:focus, #navbar-button:focus {
     outline: none;
