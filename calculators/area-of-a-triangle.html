@@ -137,7 +137,39 @@
     </div>
 
 
-    <h3 class="heading">3. Given three sides (Heron's Formula)</h3>
+    <h3 class="heading">3. Given 2 sides and an included angle</h3>
+    <div style="padding-left: 50px;">
+      This is the formula you use if you are given a triangle with sides `a`, `b`, and included angle `C` (SAS). This formula is learned in basic trig, and is: `A = 1/2ab sinC`
+      <table class="calculator-picture-answer">
+        <tr>
+          <td>
+            <img style="height: 200px;" src="images/triangle-with-side-angle-side.png" />
+          </td>
+          <td>
+            <div id="exactSinTriangle" class="math">
+              A =
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      `a` (side a length)` = ` <input id="a"/>
+      <br />
+      <br />
+      `m∠C` (angle c measure)` = ` <input id="angleC"/>
+      <br />
+      <br />
+      `b` (side b length)` = ` <input id="b"/>
+      <br />
+      <br />
+      <button onclick="calculateSinTriangle()" type="button" class="btn btn-success">Calculate</button>
+      <br />
+      <br />
+    </div>
+
+
+    <h3 class="heading">4. Given three sides (Heron's Formula)</h3>
     <div style="padding-left: 50px;">
       This is the formula you use if you are given a triangle with sides `a`, `b`, and `c`. This formula is called Heron's Formula, and is:
        <br />

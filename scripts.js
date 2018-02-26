@@ -56,6 +56,20 @@ function calculateHeronsFormula() {
 }
 
 
+function calculateSinTriangle() {
+  var a = parseInt(document.getElementById("a").value);
+  var b = parseInt(document.getElementById("b").value);
+  var c = parseInt(document.getElementById("angleC").value);
+  if (isNaN(a) || isNaN(b) || isNaN(c)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + (a*b*Math.sin(c* Math.PI / 180.0))/2+ " units²";
+  }
+  document.getElementById("exactSinTriangle").innerHTML = area ;
+}
+
+
 
 /* For Square */
 function calculateAreaOfSquare() {
