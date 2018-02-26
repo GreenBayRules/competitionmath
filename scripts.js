@@ -1,3 +1,65 @@
+/* General */
+function square(number) {
+  return number * number;
+}
+
+function simplifySqrt(sqrt) {
+  if (Number.isInteger(sqrt)){
+    var sqrts = [];
+    var outside = 1;
+    var root = sqrt;
+    for (var i = 2; i < Math.sqrt(sqrt); i++) {
+      sqrts.push(i*i);
+    }
+    console.log(sqrts);
+
+    for (var i = 0; i < sqrts.length; i++){
+      var element = sqrts[i];
+      if (root%element == 0) {
+        outside = Math.sqrt(element) * outside;
+        root = root/element;
+      }
+    }
+    if (root < 1) {
+      return "Input Wrong";
+    }
+    else {
+      return outside + "√" + root;
+    }
+    console.log(outside + "√" + root);
+  }
+  else {
+    return "√" + sqrt;
+  }
+}
+
+
+function sin(c) {
+  return Math.sin(toRadians(c));
+}
+function cos(c) {
+  return Math.cos(toRadians(c));
+}
+function tan(c) {
+  return Math.tan(toRadians(c));
+}
+function cot(c) {
+  return 1/tan(c);
+}
+function csc(c) {
+  return 1/sin(c);
+}
+function sec(c) {
+  return 1/cos(c);
+}
+
+function toDegrees (angle) {
+  return angle * (180 / Math.PI);
+}
+function toRadians (angle) {
+  return angle * (Math.PI / 180);
+}
+
 function startLearning() {
   window.open("./guides.html");
 }
@@ -64,11 +126,29 @@ function calculateSinTriangle() {
     var area = "Input Not Valid";
   }
   else {
-    var area = "A = " + (a*b*Math.sin(c* Math.PI / 180.0))/2+ " units²";
+    var area = "A = " + (a*b*sin(c)+ " units²");
   }
   document.getElementById("exactSinTriangle").innerHTML = area ;
 }
 
+/* For Heptagon */
+function calculateAreaOfHeptagon() {
+  if (isNaN(document.getElementById("side").value)) {
+    var area = "Input Not Valid";
+    var approx = "Input Not Valid";
+  }
+  else {
+    var a = 7/4;
+    console.log(a)
+    var s = document.getElementById("side").value;
+    a *= square(s);
+    console.log(a+ " " + s);
+    a *= cot(180/7);
+    console.log(a)
+
+  }
+  document.getElementById("exact").innerHTML = "A = " + a ;
+}
 
 /* For Hexagon */
 function calculateAreaOfHexagon() {
@@ -193,41 +273,4 @@ function calculateCircumfrence() {
   }
   document.getElementById("exact").innerHTML = areaWithPi;
   document.getElementById("approximate").innerHTML = area;
-}
-
-
-
-/* General */
-function square(number) {
-  return number * number;
-}
-
-function simplifySqrt(sqrt) {
-  if (Number.isInteger(sqrt)){
-    var sqrts = [];
-    var outside = 1;
-    var root = sqrt;
-    for (var i = 2; i < Math.sqrt(sqrt); i++) {
-      sqrts.push(i*i);
-    }
-    console.log(sqrts);
-
-    for (var i = 0; i < sqrts.length; i++){
-      var element = sqrts[i];
-      if (root%element == 0) {
-        outside = Math.sqrt(element) * outside;
-        root = root/element;
-      }
-    }
-    if (root < 1) {
-      return "Input Wrong";
-    }
-    else {
-      return outside + "√" + root;
-    }
-    console.log(outside + "√" + root);
-  }
-  else {
-    return "√" + sqrt;
-  }
 }
