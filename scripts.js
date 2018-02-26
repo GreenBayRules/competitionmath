@@ -70,6 +70,34 @@ function calculateSinTriangle() {
 }
 
 
+/* For Rhombus */
+function calculateAreaOfRhombus() {
+  var d1 = document.getElementById("d1").value;
+  var d2 = document.getElementById("d2").value;
+  if (isNaN(d1) || isNaN(d2)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + (d1*d2)/2 + " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
+
+
+
+/* For Rectangle */
+function calculateAreaOfRectangle() {
+  var length = document.getElementById("length").value;
+  var width = document.getElementById("width").value;
+  if (isNaN(width) || isNaN(length)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + length*width + " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
+
 
 /* For Square */
 function calculateAreaOfSquare() {
