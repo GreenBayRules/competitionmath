@@ -51,7 +51,7 @@ body, html {
   width: 30%;
   padding: 10px;
   display: inline-block;
-  margin: 0px 15px;
+  margin: 0px;
 }
 
 @media screen and (max-width: 1223px) {
@@ -80,6 +80,9 @@ body, html {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   color: #015179;
+}
+#headings {
+  text-align: center;
 }
 #heading-big {
   font-size: 4em;
@@ -164,4 +167,12 @@ body, html {
 
 .icon8 {
 
+}
+
+.row{
+  display:table;
+}
+.col-md-6{
+  display:table-cell;
+  vertical-align:middle;
 }
