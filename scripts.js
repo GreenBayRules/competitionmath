@@ -70,6 +70,24 @@ function calculateSinTriangle() {
 }
 
 
+/* For Pentagon */
+function calculateAreaOfPentagon() {
+  var s = document.getElementById("side").value;
+  if (isNaN(s)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var a = 2 * Math.sqrt(5);
+    a += 5;
+    a *= 5;
+    a = Math.sqrt(a)/4;
+    a *= square(s);
+    var area = "A = " + a;
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
+
+
 
 /* For Parallelogram */
 function calculateAreaOfParallelogram() {
