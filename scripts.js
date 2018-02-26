@@ -70,6 +70,21 @@ function calculateSinTriangle() {
 }
 
 
+
+/* For Parallelogram */
+function calculateAreaOfParallelogram() {
+  var d1 = document.getElementById("d1").value;
+  var d2 = document.getElementById("d2").value;
+  if (isNaN(d1) || isNaN(d2)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + (d1*d2) + " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
+
+
 /* For Rhombus */
 function calculateAreaOfRhombus() {
   var d1 = document.getElementById("d1").value;
