@@ -2,7 +2,23 @@ function startLearning() {
   window.open("./guides.html");
 }
 
+/* For Triangle */
+function calculateAreaOfTriangleBaseHeight() {
+  var base = document.getElementById("base").value;
+  var height = document.getElementById("height").value;
+  if (isNaN(base) || isNaN(height)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + base * height / 2 + " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
 
+
+
+
+/* For Square */
 function calculateAreaOfSquare() {
   var side = document.getElementById("side").value;
   if (isNaN(side)) {
