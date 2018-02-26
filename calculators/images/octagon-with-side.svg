@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 499.99998 499.99998"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="octagon-with-side.svg"
+   inkscape:export-filename="/home/sheshank/Downloads/math/calculators/images/octagon-with-side.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0748023"
+     inkscape:cx="218.22698"
+     inkscape:cy="248.93787"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-552.36209)">
+    <g
+       id="g4142"
+       transform="matrix(1.1791402,0,0,1.1791402,-49.501868,-159.27693)">
+      <path
+         transform="matrix(0.60803051,0.08085948,-0.08085948,0.60803051,170.46441,334.02812)"
+         inkscape:transform-center-x="-1.3505537e-05"
+         d="M 523.43665,814.13656 384.49495,995.20891 158.21084,1024.9998 -22.861514,886.05807 -52.652381,659.77396 86.289322,478.70161 312.57343,448.91074 493.64578,587.85245 Z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="0.65449847"
+         sodipodi:arg1="0.26179939"
+         sodipodi:r2="275.50607"
+         sodipodi:r1="298.20563"
+         sodipodi:cy="736.95526"
+         sodipodi:cx="235.39214"
+         sodipodi:sides="8"
+         id="path3336"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:11.41210842;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="star" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138"
+         y="1001.9987"
+         x="191.0128"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:34.50865555px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1001.9987"
+           x="191.0128"
+           id="tspan4140"
+           sodipodi:role="line">s = side</tspan></text>
+    </g>
+  </g>
+</svg>

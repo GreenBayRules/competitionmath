@@ -131,6 +131,26 @@ function calculateSinTriangle() {
   document.getElementById("exactSinTriangle").innerHTML = area ;
 }
 
+/* For Octagon */
+function calculateAreaOfOctagon() {
+  var side = document.getElementById("side").value;
+  if (isNaN(side)) {
+    var area = "Input Not Valid";
+    var approx = "Input Not Valid";
+  }
+  else {
+    var a = 1 + Math.sqrt(2);
+    a *= 2;
+    a *= square(side);
+    var area = a;
+
+    var b = 2 * square(side);
+    var areae = b + " " + b + "√2";
+
+  }
+  document.getElementById("approximate").innerHTML = "A ≈ " + area ;
+  document.getElementById("exact").innerHTML = "A = " + areae ;
+}
 /* For Heptagon */
 function calculateAreaOfHeptagon() {
   if (isNaN(document.getElementById("side").value)) {
