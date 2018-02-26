@@ -77,7 +77,7 @@
     There are multiple ways to find the area of a triangle, each based on the information you are given with.
     <br />
     <br />
-    <h3>1. Given Base and Height</h3>
+    <h3 class="heading">1. Given Base and Height</h3>
     <div style="padding-left: 50px;">
       This is the most basic way to calculate the area of a triangle. Given the base and the height, the formula is: `A = 1/2bh`.
       <table class="calculator-picture-answer">
@@ -102,6 +102,34 @@
       <br />
       <br />
       <button onclick="calculateAreaOfTriangleBaseHeight()" type="button" class="btn btn-success">Calculate</button>
+      <br />
+      <br />
+    </div>
+    <h3 class="heading">2. Given Equilateral Triangle side</h3>
+    <div style="padding-left: 50px;">
+      This is the formula you use given an equilateral triangle with side length `a`. Given the side length being `a`, the formula is: `A = (sqrt(3)a^2)/4`.
+      <table class="calculator-picture-answer">
+        <tr>
+          <td>
+            <img style="height: 200px;" src="images/equilateral-triangle-with-side.png" />
+          </td>
+          <td>
+            <div id="exactEquilateral" class="math">
+              A =
+            </div>
+            <div id="approximateEquilateral" class="math">
+              A ≈
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      `A` (side length)` = ` <input id="side"/>
+      &nbsp;&nbsp;&nbsp;
+      <br />
+      <br />
+      <button onclick="calculateAreaOfEquilateralTriangle()" type="button" class="btn btn-success">Calculate</button>
       <br />
       <br />
     </div>

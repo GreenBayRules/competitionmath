@@ -16,6 +16,27 @@ function calculateAreaOfTriangleBaseHeight() {
 }
 
 
+function calculateAreaOfEquilateralTriangle() {
+  var side = document.getElementById("side").value;
+  if (isNaN(side)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var sidesquared = square(side);
+    var sidesquareddividedby4 = sidesquared / 4;
+    var sidesquaredtimesthree = sidesquareddividedby4 * Math.sqrt(3);
+    var areaApproximate = "A = " + sidesquaredtimesthree + " units²";
+    console.log(side);
+    console.log(sidesquared);
+    console.log(sidesquareddividedby4);
+    console.log(sidesquaredtimesthree);
+    var area = "A ≈ " + sidesquareddividedby4 + "√3 units²";
+  }
+  document.getElementById("exactEquilateral").innerHTML = area ;
+  document.getElementById("approximateEquilateral").innerHTML = areaApproximate ;
+}
+
+
 
 
 /* For Square */
@@ -25,7 +46,7 @@ function calculateAreaOfSquare() {
     var area = "Input Not Valid";
   }
   else {
-    var area = "A = " + side * side+ " units²";
+    var area = "A = " + square(side)+ " units²";
   }
   document.getElementById("exact").innerHTML = area ;
 }
@@ -60,4 +81,11 @@ function calculateCircumfrence() {
   }
   document.getElementById("exact").innerHTML = areaWithPi;
   document.getElementById("approximate").innerHTML = area;
+}
+
+
+
+/* General */
+function square(number) {
+  return number * number;
 }
