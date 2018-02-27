@@ -300,6 +300,18 @@ function calculateAreaOfSquare() {
 }
 
 
+/* For Perimeter */
+function calculatePerimeter() {
+  var length = document.getElementById("side").value;
+  var width = document.getElementById("numside").value;
+  if (isNaN(width) || isNaN(length)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "P = " + length*width + " units";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
 
 
 
