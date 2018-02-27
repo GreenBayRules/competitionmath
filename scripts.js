@@ -326,6 +326,22 @@ function calculatePerimeter() {
   document.getElementById("exact").innerHTML = area ;
 }
 
+/* For Area */
+function calculateArea() {
+  var s = document.getElementById("side").value;
+  var n = document.getElementById("numside").value;
+  if (isNaN(s) || isNaN(n)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var p = s * n;
+    var a = s / (2 * tan(180/n));
+
+    var area = "A ≈ " + Math.round(a * p * (1/2));
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
+
 
 
 /* For Circles */
