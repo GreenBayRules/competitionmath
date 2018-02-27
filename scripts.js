@@ -286,6 +286,19 @@ function calculateAreaOfRectangle() {
   document.getElementById("exact").innerHTML = area ;
 }
 
+/* For Trapezoid */
+function calculateAreaOfTrapezoid() {
+  var height = document.getElementById("height").value;
+  var b1 = document.getElementById("b1").value;
+  var b2 = document.getElementById("b2").value;
+  if (isNaN(b2) || isNaN(b1) || isNaN(height)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + (1/2)*(parseInt(b1)+parseInt(b2))*height + " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
 
 /* For Square */
 function calculateAreaOfSquare() {

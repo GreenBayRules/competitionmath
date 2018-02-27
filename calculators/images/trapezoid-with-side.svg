@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 500.00001 500.00001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="trapezoid-with-side.svg"
+   inkscape:export-filename="/home/sheshank/Downloads/math/calculators/images/trapezoid-with-side.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.89"
+     inkscape:cx="230.55227"
+     inkscape:cy="225.29498"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showguides="false"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-552.36216)">
+    <g
+       id="g4182"
+       transform="translate(2.2536379e-6,-1.1300788)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4140"
+         d="m 446.2546,894.23714 -101.06008,-181.61521 -190.89125,0 -100.57185,181.61521 z"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4142"
+         y="934.84351"
+         x="167.44412"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="934.84351"
+           x="167.44412"
+           id="tspan4144"
+           sodipodi:role="line">b<tspan
+   id="tspan4146"
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:64.99999762%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';baseline-shift:sub">2</tspan> = base</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="167.44412"
+         y="934.84351"
+         id="text4148"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4150"
+           x="167.44412"
+           y="934.84351">b<tspan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:64.99999762%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';baseline-shift:sub"
+   id="tspan4152">2</tspan> = base</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4154"
+         y="693.62097"
+         x="167.44412"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="693.62097"
+           x="167.44412"
+           id="tspan4156"
+           sodipodi:role="line">b<tspan
+   id="tspan4160"
+   style="font-size:64.99999762%;baseline-shift:sub">1</tspan> = base</tspan></text>
+      <path
+         id="rect4162"
+         transform="translate(0,552.36216)"
+         d="m 152.59766,158.76953 0,24.77539 7,0 0,-24.77539 -7,0 z m 0,40.54102 0,15.20507 7,0 0,-15.20507 -7,0 z m 0,30.9707 0,15.20313 7,0 0,-15.20313 -7,0 z m 0,30.96875 0,15.20508 7,0 0,-15.20508 -7,0 z m 0,30.9707 0,15.20313 7,0 0,-15.20313 -7,0 z m 0,30.97071 0,15.20312 7,0 0,-15.20312 -7,0 z"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         sodipodi:linespacing="125%"
+         id="text4178"
+         y="144.73987"
+         x="-873.08179"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20.83106804px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="144.73987"
+           x="-873.08179"
+           id="tspan4180"
+           sodipodi:role="line">h = height</tspan></text>
+    </g>
+  </g>
+</svg>
