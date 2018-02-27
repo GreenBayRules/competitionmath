@@ -402,3 +402,16 @@ function calculateCircumfrenceOfEllipse() {
   }
   document.getElementById("approximate").innerHTML = p;
 }
+
+/* For Sector */
+function calculateAreaOfSector() {
+  var r = document.getElementById("radius").value;
+  var theta = document.getElementById("theta").value;
+  if (isNaN(r)) {
+    var area = "Input Not Valid";
+  }
+  else {
+    var area = "A = " + (1/2)*theta*square(r)+ " units²";
+  }
+  document.getElementById("exact").innerHTML = area ;
+}
