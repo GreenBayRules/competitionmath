@@ -148,6 +148,23 @@ function calculateAreaOfDecagon() {
   document.getElementById("exact").innerHTML = "A = " + area ;
 }
 
+/* For Nonagon */
+function calculateAreaOfNonagon() {
+  var side = document.getElementById("side").value;
+  if (isNaN(side)) {
+    var area = "Input Not Valid";
+    var approx = "Input Not Valid";
+  }
+  else {
+    var a = 9/4;
+    a *= square(side);
+    a *= cot(20);
+    var area = a;
+
+  }
+  document.getElementById("exact").innerHTML = "A = " + area ;
+}
+
 /* For Octagon */
 function calculateAreaOfOctagon() {
   var side = document.getElementById("side").value;
